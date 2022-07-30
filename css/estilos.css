@@ -149,4 +149,32 @@ nav{
     .feature-black{
         background-color: rgba(0,0,0,0.59);
     }
+
+
+    .titulo{
+        text-align: center;
+        margin: 1.5rem;
+    }
+
+    .imgM{
+        margin-left: 2.3rem;
+    }
+
+    .mapa{
+        width: 80rem;
+        height: 25rem;
+    }
+    
+    .textoM{
+        text-align: center;
+        margin: 0.5rem;
+    }
+
+    hr{
+        background-color: #88a8ec;
+        width: 45rem;
+        margin-left: 20rem;
+        height: 0.1em;
+    }
+
     
