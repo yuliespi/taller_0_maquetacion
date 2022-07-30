@@ -30,7 +30,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--negro);
+    background-color: #000;
     font-family: 'Marcellus', serif;
     font-size: 1.3em;
     padding: 1rem;
@@ -46,6 +46,16 @@ nav{
     }
     .logo img{
         height: 3rem;
+        color: #FFFEFC;
+    }
+
+    .item1{
+        background-color: #0B3860;
+        height: 2.5rem;
+        width: 15rem;
+        color: #FFFEFC;
+        text-align: center;
+        border-color: #0B3860;
     }
 
 .caja{
@@ -177,4 +187,91 @@ nav{
         height: 0.1em;
     }
 
-    
+    .tituloUsuarios{
+        height: 10rem;
+        width: 85rem;
+        background-color: #000;
+        color: #FFFEFC;
+        text-align: center;
+    }
+
+    .persona1{
+        margin: 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #0B3860;
+        width: 20rem;
+        height: 15rem;
+        align-self: flex-start;
+        display: inline-block;
+        position: relative;
+        margin-left: 10rem;
+    }
+
+    .imgP1{
+        border-radius: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .nombre1{
+        text-align: left;
+        top: 0%;
+    }
+
+    .estrellas{
+        width: 5rem;
+        height: 1.5rem;
+    }
+
+    .persona2{
+        margin: 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #0B3860;
+        width: 20rem;
+        height: 15rem;
+        align-content: center;
+        display: inline-block;
+        position: relative;
+        margin-left: 0.9rem;
+
+    }
+
+    .persona3{
+        margin: 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #0B3860;
+        width: 20rem;
+        height: 15rem;
+        align-content: flex-end;
+        display: inline-block;
+        position: relative;
+        margin-left: 0.9rem;
+    }
+
+
+
+    footer{
+        background-color: #262830;
+        display: flex;
+        color: #ffffff;
+        height: 10rem;
+        padding: 1.5rem;
+    }
+
+    .redes{
+        text-align: left;
+        margin-top: 2rem;
+        margin-left: 1em;
+
+    }
+
+    .direccion{
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+    .Politicas{
+    text-align: right;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
