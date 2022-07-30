@@ -13,6 +13,18 @@
   --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
 
+*{
+    margin:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+ 
+  h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
 
 nav{
     display: flex;
@@ -24,3 +36,117 @@ nav{
     padding: 1rem;
 
 }
+
+.item{
+    padding: 1rem;
+    }
+    nav a{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    .logo img{
+        height: 3rem;
+    }
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+.banner{
+    height: 40rem;
+    width: 85rem;
+}
+
+.texto{
+    background-color: #00000059;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5em;
+    position: absolute;
+    top: 35rem;
+}
+
+.caja2{
+    display: flex;
+    height: 25rem;
+}
+
+.parrafo{
+    text-align: left;
+    margin: 05rem;
+    font-size: 1.2em;
+}
+
+.cajaimg{
+    margin: 05rem;
+}
+
+.imgH{
+    height: 15rem;
+    margin-right: 05rem;
+}
+
+.imgF{
+    height: 30rem;
+    width: 85rem;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+
+}
+
+.cajafeatures{
+    background-image: url(../img/bg-features.png);
+    width: 85rem;
+    height: 12rem;
+    padding: 0.5rem;
+}
+
+#features{
+        color: #ffffff;
+        padding-top: 1rem;
+    }
+   
+    .features-title{
+        background-color: rgba(0,0,0,0.35);
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.5em;
+    }
+
+    .features-description{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .feature{
+        width: 25%;
+        min-width: 180px;
+        max-width: 230px;
+        margin: 0.8rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+     
+    .feature i{
+        font-size: 2.2em;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-blue{
+        background-color: #00325eae;
+    }
+     
+    .feature-black{
+        background-color: rgba(0,0,0,0.59);
+    }
+    
