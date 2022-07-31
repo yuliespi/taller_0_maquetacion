@@ -275,3 +275,70 @@ nav{
     margin-left: 6rem;
     margin-top: 2rem;
 }
+
+/*Inicio estilos login*/
+
+.body{
+    background-image: url(../img/habitacion.jpg);
+    background-repeat: no-repeat;
+    height: 85rem;
+
+}
+
+.containerL{
+    background-color: #6182c0cb;
+    margin: 15em;
+    margin-left: 30rem;
+    width: 25rem;
+    height: 25rem;
+    padding: 0%;
+    justify-items: flex-start;
+
+}
+
+.logoL{
+    width: 6rem;
+    height: 5rem;
+    margin-left: 2rem;
+}
+
+.icon{
+    color: #9C2759;
+    margin-left: 12rem;
+    height: 5rem;
+    
+}
+
+label{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 7rem;
+}
+
+input{
+    margin-left: 7rem;
+    border-color: #6182c0cb;
+}
+
+
+.botonL{
+    background-color: #000;
+    height: 1.5rem;
+    width: 60rem;
+    margin-left: 10rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.cuentaL{
+    margin-left: 3rem;
+    color: #FFFEFC;
+}
+
+.textL{
+    color: #000;
+    text-decoration: none;
+}
+
