@@ -342,3 +342,83 @@ input{
     text-decoration: none;
 }
 
+/*Inicio de estilos de formuario Registro*/
+
+
+.bodyR{
+    background-image: url(../img/fondoR.jpg);
+    display: flex;
+    position: relative;
+    
+}
+.caja1R{
+    background-color: #0b3860ce;
+    height: 42rem;
+    width: 30rem;
+}
+
+.logoR{
+    margin: 4rem;
+    margin-top: 12rem;
+}
+
+.textoR{
+    margin: 0rem;
+    margin-top: 0rem;
+    margin-left: 8rem;
+    color: #FFFEFC;
+}
+
+.FormR{
+    background-color: #fffefcea;
+    width: 50rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.tituloFR{
+    text-align: center;
+    margin: 2rem;
+}
+
+.form{
+    display: flex;
+    
+}
+
+.TdD{
+    color: #000;
+    
+}
+
+.caja1RF{
+    text-align: left;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.caja2Rf{
+    color: #000;
+    text-align: left;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.caja3RF{
+    text-align: left;
+    margin-left: 5rem;
+}
+
+.btnR{
+    margin-left: 15rem;
+    height: 2rem;
+    width: 10rem;
+    background-color: #303342;
+    color: #FFFEFC;
+}

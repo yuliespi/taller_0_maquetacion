@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
+    <title>Registro de usuarios</title>
+</head>
+<body class="bodyR">
+    
+    <div class="caja1R">
+        <img src="img/Hotelia horizontal blanco.svg" class="logoR">
+        <h1 class="textoR">Eres mas que bienvenido</h1>
+    </div>
+
+    <div class="FormR">
+        <h1 class="tituloFR">Registrate</h1>
+
+            <form class="form">
+               <div class="caja1RF">
+                    <label class="TdD" for="text">Tipo de Documento</label>
+                    <input type="text" value="Escoja una opcion">
+                    <select name="documento" id="tipo"></select>
+
+                    <label class="TdD" for="text">Nombres</label>
+                    <input type="text" placeholder="Escoja una opcion">
+
+                    <label class="TdD" for="text">Fecha de Nacimiento</label>
+                    <input type="text"><br>
+
+                    <label class="TdD" for="text">Email</label>
+                    <input type="text" value="Escoja una opcion">
+
+                    <label class="TdD" for="text">Pais de Origen</label>
+                    <input type="text"><br>
+
+                    <label class="TdD" for="password">Contraseña</label>
+                    <input type="password"><br>
+            </div> 
+
+            <div class="caja2Rf">
+                <label class="TdD" for="text">Numero de Documento</label>
+                <input type="text"><br>
+
+                <label class="TdD" for="text">Apellido</label>
+                <input type="text"><br>
+
+                <label class="TdD">Genero</label><br>
+                <p><input type="radio" name="genero" value="mujer" checked>Mujer <br>
+                <input type="radio" name="genero" value="hombre" checked>Hombre <br>
+                <input type="radio" name="genero" value="Otro" checked>Otro</p>
+ 
+                <label class="TdD" for="text">Telefono de Contacto</label>
+                <input type="text"><br>
+
+                <label class="TdD" for="text">Foto</label>
+                <input type="select" placeholder="Seleccionar archivo"><br>
+
+                <label class="TdD" for="text">Confirmar Contraseña</label>
+                <input type="password"><br>
+            </div>
+        </form>
+        <div class="caja3RF">
+            <p><label></label><input type="checkbox" name="politicas" checked>Acepto terminos y Condiciones</p><br>
+            <button class="btnR">Ingresar</button>
+        </div>
+    </div>
+</body>
+</html>
