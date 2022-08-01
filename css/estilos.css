@@ -390,13 +390,14 @@ input{
 
 .TdD{
     color: #000;
+
     
 }
 
 .caja1RF{
     text-align: left;
     align-items: center;
-    width: 20rem;
+    width: 18rem;
     height: 20rem;
     padding: 2rem;
 }
@@ -412,7 +413,8 @@ input{
 
 .caja3RF{
     text-align: left;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
 }
 
 .btnR{
@@ -421,4 +423,139 @@ input{
     width: 10rem;
     background-color: #303342;
     color: #FFFEFC;
+}
+
+.inputFR{
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    width: 15rem;
+}
+
+/*Empiezan los estilos del dashboard*/
+
+.bodydash{
+    background-image: url(../img/fondodash.jpg);
+    display: flex;
+    position: relative;
+}
+
+.menuL1{
+    background-color: rgb(4, 4, 138);
+    color: #FFFEFC;
+    height: 18rem;
+    width: 20rem;
+}
+
+
+
+.logoD{
+    width: 10rem;
+    height: 9rem;
+    margin-left: 4rem;
+}
+
+.Textodash{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+.menuL2{
+    background-color: #262830;
+    color: #FFFEFC;
+    width: 20rem;
+    height: 19rem;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.FormD{
+    background-color: #fffefcc7;
+    width: 60rem;
+    height: 35rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.titulodash{
+    text-align: center;
+}
+
+.caja1D{
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+.btnD{
+    height: 4rem;
+    background-color: #262830;
+    color: #FFFEFC;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 8rem;
+    border: #262830;
+}
+
+.formDash{
+    display: flex;
+}
+
+.caja1Dash{
+    color: #000;
+    text-align: left;
+    align-items: center;
+    width: 18rem;
+    height: 20rem;
+    padding: 2rem;
+    align-content: center;
+    position: absolute;
+    margin-top: -17rem;
+    margin-left: 5rem;
+    
+}
+
+.caja2dash{
+    color: #000;
+    text-align: left;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    position: absolute;
+    margin-left: 33rem;
+    margin-top: -17rem;
+}
+
+
+.inputDash{
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    width: 15rem;
+
+}
+
+.btn2D{
+    background-color: #262830;
+    width: 10rem;
+    height: 2rem;
+    color: #FFFEFC;
+    border: #262830;
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.inputCD{
+    margin-top: 5rem;
+}
+
+.opD{
+    margin-top: 7rem;
+    background-color: #fffefc0e;
+    height: 1.5rem;
+    width: 15rem;
+    float: right;
 }
