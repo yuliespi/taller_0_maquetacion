@@ -431,6 +431,54 @@ input{
     width: 15rem;
 }
 
+.modalContenido{
+    background-color: #fffffffa;
+    position: relative;
+    border-radius: 1rem;
+    width: 30rem;
+    padding: 5rem;
+    margin: 10rem auto;
+}
+.terminoYc{
+    background-color: #262830;
+    color: #FFFEFC;
+    width: 15rem;
+    height: 3rem;
+    margin: 5rem 20rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#miModal:target{
+    opacity:2;
+    pointer-events:auto;
+}
+.modal{
+    border-radius: 1rem;
+    background-color: #00000098;
+    align-content: center;
+    position: absolute;
+    pointer-events: none;
+    transition: all 1s;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.salir{
+    text-decoration: none;
+    font-family: 'Marcellus', serif;
+    color: #ffffff;
+}
+
+.terminos{
+    text-decoration: none;
+    color: #000000;
+}
 /*Empiezan los estilos del dashboard*/
 
 .bodydash{
